@@ -14,6 +14,12 @@
     "url": "https://github.com/rd-test-devops/automatic-publish-npm-semantic.git"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^17.4.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
