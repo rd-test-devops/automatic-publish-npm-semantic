@@ -11,7 +11,7 @@ module.exports = {
         //    "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
         // }],
         ["@semantic-release/exec", {
-            "prepareCmd": "./server-build-script.sh version=${nextRelease.version}",
+            "prepareCmd": "./server-build-script.sh ${nextRelease.version}",
         }],
     ],
     branches: ['main', 'next'],
