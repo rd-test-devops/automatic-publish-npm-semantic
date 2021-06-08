@@ -37,6 +37,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
+    - run: sudo chmod 777 server-build-script.sh
     - run: npm ci
     - run: npm run semantic-release
       env:
