@@ -8,7 +8,7 @@ module.exports = {
         ["@semantic-release/release-notes-generator"],
         ["@semantic-release/git", {
             "assets": ["package.json"],
-           "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+           "message": "chore(release): ${nextRelease.version} [BUILD COMMIT]\n\n${nextRelease.notes}"
         }],
         // ["@semantic-release/exec", {
         //     "prepareCmd": "./server-build-script.sh ${nextRelease.version}",
