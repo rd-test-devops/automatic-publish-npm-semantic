@@ -3,7 +3,7 @@ module.exports = {
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         "@semantic-release/exec", {
-            "verifyReleaseCmd": "./server-build-script.sh ${nextRelease.version}",
+            "successCmd": "./server-build-script.sh ${nextRelease.version}",
         },
         "@semantic-release/changelog", {
             "changelogFile": "CHANGELOG.md"
