@@ -1,3 +1,10 @@
+## [2.9.2](https://github.com/rd-test-devops/automatic-publish-npm-semantic/compare/v2.9.1...v2.9.2) (2021-06-10)
+
+
+### Bug Fixes
+
+* **npm:** nom ([53c43ad](https://github.com/rd-test-devops/automatic-publish-npm-semantic/commit/53c43adc0916fa2b17902e09e392b3dc0a7e495b))
+
 ## [2.9.1](https://github.com/rd-test-devops/automatic-publish-npm-semantic/compare/v2.9.0...v2.9.1) (2021-06-10)
 
 
