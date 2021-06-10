@@ -3,7 +3,7 @@ module.exports = {
         "@semantic-release/commit-analyzer",
         ["@semantic-release/release-notes-generator"],
         ["@semantic-release/exec", {
-            "prepareCmd": "./server-build-script.sh ${nextRelease.version}",
+            "publishCmd": "./server-build-script.sh ${nextRelease.version}",
         }],
         ["@semantic-release/git", {
             "assets": ["package.json"],
