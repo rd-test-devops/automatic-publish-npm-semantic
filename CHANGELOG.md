@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/rd-test-devops/automatic-publish-npm-semantic/compare/v2.9.3...v3.0.0) (2021-06-15)
+
+
+### Features
+
+* **pipeline:** pipeline ([81b85f0](https://github.com/rd-test-devops/automatic-publish-npm-semantic/commit/81b85f09672227748d548a21f2da053d09abb5dd))
+
+
+### BREAKING CHANGES
+
+* **pipeline:** alsjdlkasjdlfkaj
+
 ## [2.9.3](https://github.com/rd-test-devops/automatic-publish-npm-semantic/compare/v2.9.2...v2.9.3) (2021-06-10)
 
 
